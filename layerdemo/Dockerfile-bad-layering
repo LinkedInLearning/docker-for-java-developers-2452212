@@ -1,5 +1,0 @@
-FROM alpine:latest
-ADD ./ /app/
-RUN apk add openjdk11
-WORKDIR /APP
-CMD ["java", "-jar", "layerdemo-0.0.1-SNAPSHOT.jar"]

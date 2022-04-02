@@ -1,0 +1,5 @@
+FROM openjdk:11-jdk
+WORKDIR /app
+ADD . /app
+RUN ./mvnw package
+CMD ["java", "-jar", "layerdemo-0.0.1-SNAPSHOT.jar"]l
