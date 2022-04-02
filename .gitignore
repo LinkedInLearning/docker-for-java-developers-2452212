@@ -18,7 +18,7 @@ npm-debug.log
 .idea
 
 # Package Files #
-*.jar
+# *.jar
 *.war
 *.nar
 *.ear
