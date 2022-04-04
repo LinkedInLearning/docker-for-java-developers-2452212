@@ -10,6 +10,8 @@ docker run -itd --name host-volume-app -v %cd%/my-host-folder:/container-folder 
 
 ```
 docker exec -it host-volume-app sh
+# cat /container-folder/host-hello.txt
+# echo Hello from the container >> /container-folder/host-hello.txt
 ```
 
 
