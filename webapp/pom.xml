@@ -57,7 +57,7 @@
 				<version>3.2.0</version>
 				<configuration>
 					<to>
-						<image>webapp:jib</image>
+						<image>docker.io/mellenbowman/webapp:jib</image>
 					</to>
 				</configuration>
 			</plugin>
