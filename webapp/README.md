@@ -1,6 +1,6 @@
 ## Ditching the Dockerfile
 
-#Jib
+### Jib
 For auto push to remote image
 ```
 ./mvnw package -jib:build  
