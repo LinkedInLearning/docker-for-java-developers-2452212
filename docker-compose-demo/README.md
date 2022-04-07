@@ -19,7 +19,7 @@ curl localhost:8080/stop
 docker rm blog-backend app
 
 ```
-###Automated using docker-compose
+### Automated using docker-compose
 ```
 docker-compose up
 docker-compose down
