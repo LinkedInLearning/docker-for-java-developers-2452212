@@ -2,5 +2,6 @@ FROM openjdk:11-jdk
 ADD app /app
 WORKDIR /app
 RUN javac -cp lombok.jar Forever.java
+RUN rm Forever.java
 CMD ["java", "Forever", "-cp", "lombok.jar"]
 
